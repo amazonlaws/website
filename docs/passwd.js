@@ -10,7 +10,7 @@ const checkPassword = () => {
      p[3] === 52071 &&
      p[7] === 52017 &&
      p[2] === 52075 &&) {
-    window.location.replace(v + ".html");
+    window.location.replace("/admin/" + v + ".html");
   } else {
     alert("Wrong password!");
   }
