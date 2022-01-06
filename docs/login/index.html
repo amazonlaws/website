@@ -82,30 +82,32 @@
     </script>
   </head>
   <body>
+    <h1>login</h1>
+    <p>login with bville.org</p>  
     <form name="LoginForm" id="LoginForm" action="https://www.bville.org/protected/teditpage.cfm" method="POST" onsubmit="return _CF_checkLoginForm(this)">
-		  <INPUT TYPE="Hidden" NAME="UserLogin_required" aria-label="UserLogin_required">
-		  <INPUT TYPE="Hidden" NAME="UserPassword_required" aria-label="UserPassword_required">	
-		  <div style="background-color: #F8F8F8; width: 450px; margin: 25px auto; padding: 0px 40px; border: 1px solid #E3E3E3;">
-			  <div style="text-align: center;">  
-				  <img src="https://www.cnyric.org/images/tempEdit/logo_tempedit_login.png" style="margin-top: 45px;  margin-bottom: 30px;" width="137px">
-			  </div>
-			  <div>
-				  <label for="UserLogin" class="topformLabel">Username</label>
-			  </div>
-			  <div>
-				  <input name="UserLogin" type="text" maxlength="100"  class="gl_textbox"  id="UserLogin"  size="45"  /> 
-			  </div>
-			  <br>
-			  <div>
-				  <label for="UserPassword" class="topformLabel">Password</label>
-			  </div>
-			  <div>
-				  <input name="UserPassword" type="password" maxlength="100"  class="gl_textbox"  id="UserPassword"  size="45"  /> 
-			  </div>
-			  <div align="right">
-				  <input type="submit" class="primaryButtonBlue" name="Submit" value="Log In">
-			  </div>
-		  </div>
-	  </form>
+      <INPUT TYPE="Hidden" NAME="UserLogin_required" aria-label="UserLogin_required">
+      <INPUT TYPE="Hidden" NAME="UserPassword_required" aria-label="UserPassword_required">	
+      <div style="background-color: #F8F8F8; width: 450px; margin: 25px auto; padding: 0px 40px; border: 1px solid #E3E3E3;">
+	<div style="text-align: center;">  
+	  <img src="https://www.cnyric.org/images/tempEdit/logo_tempedit_login.png" style="margin-top: 45px;  margin-bottom: 30px;" width="137px">
+        </div>
+	<div>
+	  <label for="UserLogin" class="topformLabel">Username</label>
+	</div>
+	<div>
+	  <input name="UserLogin" type="text" maxlength="100"  class="gl_textbox"  id="UserLogin"  size="45"  /> 
+	</div>
+	<br>
+	<div>			
+          <label for="UserPassword" class="topformLabel">Password</label>
+	</div>
+	<div>
+	  <input name="UserPassword" type="password" maxlength="100"  class="gl_textbox"  id="UserPassword"  size="45"  /> 
+	</div>
+	<div align="right">
+	  <input type="submit" class="primaryButtonBlue" name="Submit" value="Log In">
+	</div>
+      </div>
+    </form>
   </body>
 </html>
