@@ -4,15 +4,22 @@
   </head>
   <body>
     <div id="main">
-      <marquee><h1>Welcome to thr home page</h1></marquee>
+      <marquee><h1>Welcome to thr home page</h1></marquee><br>
       <div id="home-page">
-        <p>idk what this is</p>
+        <p id="hello">hello world</p>
+        <input id="name">enter your name</input><br>
+        <button onclick="hi()">submit</button>
+        <script>
+          function hi() {
+            document.getElementById("hello").innerHTML = "hello " + name.value();
+          }
+        </script>
       </div>
       <div id="links">
         <h2>Links</h2>
         <p><a href="https://amazonlaws.github.io/website/chat/index.php">chat server</a></p>
         <p><a href="https://amazonlaws.github.io/website/login/index.html">login</a></p>
-      </div>
+      </div><br>
     </div>
   </body>
 </html>
